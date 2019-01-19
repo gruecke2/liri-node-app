@@ -87,7 +87,7 @@ function omdbSearch(search) {
       console.log("IMDB Rating: "+response.data.imdbRating);
       console.log("Rotten Tomatoes Rating: "+response.data.Ratings[1].Value);
       console.log("Country: "+response.data.Country);
-      console.log("Language:c"+response.data.Language);
+      console.log("Language: "+response.data.Language);
       console.log("Plot:\n"+response.data.Plot);
       console.log("Actors: "+response.data.Actors);
       console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
