@@ -65,6 +65,9 @@ LIRI uses a variety of node packages to work:
 
 ## Examples
 ![](screenshots/spotify-cap1.PNG)
+![](screenshots/concert-cap1.PNG)
+![](screenshots/movie-cap1.PNG)
+![](screenshots/random-cap1.PNG)
 
 
 
