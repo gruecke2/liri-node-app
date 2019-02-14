@@ -20,6 +20,10 @@ var spotify = new Spotify({
   secret: keys.spotify.secret
 });
 
+/*
+* Needs to be refactored to use process.argv.splice(3).join(" ");
+* ...
+*/
 var searchTerm = "";
 if (process.argv[3]) {
     for (let i = 3; i < process.argv.length; i++) {
